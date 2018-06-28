@@ -1,4 +1,5 @@
-
+@media (max-width: 700px) {
+}
 body,
 html {
   background: url("mountainscene1.jpg") no-repeat center center fixed;
