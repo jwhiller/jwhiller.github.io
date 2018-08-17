@@ -1,4 +1,3 @@
-
 #bgpic {
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -61,7 +60,7 @@ li{
     padding: 0px;
     position: absolute;
     z-index: 1;
-    /* right: 0px; */
+    font-size: .5em;
 }
 
 .dropdown-content a {
