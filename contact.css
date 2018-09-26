@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+* {
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  background: #f1f1f1;
+}
+
+.divider {
+  font-size: 8em color: black;
+}
+
+.container {
+  align-items: center;
+  text-align: center;
+}
+
+.name {
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 0px;
+  margin-top: 50px;
+  color: black;
+  font-size: 7em;
+  padding-top: 50px;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+
+
+.title2 {
+  font-family: 'Raleway', sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: black;
+  font-size: 2em;
+  padding: 60px 0px 20px 0px;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: black;
+}
+
+.icons {
+  text-align: center;
+  position: bottom;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+}
+
+.socialIcons img {
+  margin-right: 40px;
+  height: 25px;
+  width: 25px;
+}
+
+.socialIcons2 img {
+  height: 25px;
+  width: 25px;
+}

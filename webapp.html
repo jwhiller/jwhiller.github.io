@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Jimmy Hiller Web Designer/Developer</title>
+
+  <!-- Bootstrap 3.37 -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="navstyle.css">
+  <link rel="stylesheet" type="text/css" href="work.css">
+
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+  <!-- jQuery -->
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+
+  <style media="screen">
+    .thumbnail{
+      height: 450px;
+      margin-bottom: 80px;
+    }
+
+    i:hover{
+      cursor: grab;
+      color: rgb(125, 125, 125)
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- navbar -->
+  <header>
+    <div class="nav_bar">
+      <ul class="nav_">
+        <li class="item">
+          <a href="index.html">Home</a>
+        </li>
+
+        <li class="item">
+          <a href="about.html">About</a>
+        </li>
+
+        <li class="item">
+          <a href="work.html" class='active-page'>Work</a>
+        </li>
+
+        <li class="item">
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
+
+      <div class="logo">
+        <a href="index.html"> <img class="logo" src="jhlogogrey.png" alt=""> </a>
+
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="head_title">
+      <h1><strong>Web Applications</strong></h1>
+      <i onclick="goBack()"class="fas fa-arrow-left" > Go Back</i>
+
+    </div>
+<div class="row">
+<div class="col-sm-6 col-md-4">
+  <div class="thumbnail">
+    <img src="webapp2.png" alt="Design Thumbnail">
+    <div class="caption">
+      <h3><a href="https://github.com/jwhiller/weahterApp" target="_blank"><strong>Weather App</strong></a> </h3>
+    <p>This weather app was created using Ruby on Rails. The key features of this app are using a weatherbug API to give you a live forcast of your chosen area. The background of this app adapts to the weather conditions.</p>
+    </div>
+  </div>
+</div>
+
+<div class="col-sm-6 col-md-4">
+  <div class="thumbnail">
+    <img src="webapp3.png" alt="Web App Thumbnail">
+    <div class="caption">
+    <h3><a href="rockpaperscissors.html"><strong>Rock Paper Scissors</strong></a> </h3>
+    <p>This app was written in javascript. See if you have what it takes to beat the computer!</p>
+    </div>
+  </div>
+</div>
+
+<div class="col-sm-6 col-md-4">
+  <div class="thumbnail">
+    <img src="webapp4.png" alt="Website Design Thumbnail">
+    <div class="caption">
+      <h3><a href="https://github.com/jwhiller/sounds_delish_jh" target="_blank"><strong>Sounds Delish</strong></a> </h3>
+      <p>Sounds Delish was created in Ruby on Rails. It was a final project my team and I created. The app pairs a recipe from different categories with a song from Spotify using the spotify API. </p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+  <!-- javascrsipt link -->
+  <script src="mainjs.js"></script>
+
+</body>
+
+</html>
