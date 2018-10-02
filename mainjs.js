@@ -1,6 +1,11 @@
+
+
+
+
+// navbar transition on scroll
 $(document).ready(function() {
       $(window).on('scroll', function() {
-        if (Math.round($(window).scrollTop()) > 100) {
+        if (Math.round($(window).scrollTop()) > 0) {
           $('.nav_bar').addClass('scrolled');
         } else {
           $('.nav_bar').removeClass('scrolled');

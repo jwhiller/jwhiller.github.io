@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
+
+
 * {
   box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
@@ -57,14 +59,7 @@ header {
   transition: 0.5s ease;
 }
 
-.nav_bar .nav_ .item .contact {
-  display: inline-block;
-  height: 40px;
-  line-height: 30px;
-  padding: 5px;
-  border-radius: 2px;
-  transition: 0.5s ease;
-}
+
 
 .nav_bar .nav_ .item a {
   text-decoration: none;
@@ -81,6 +76,13 @@ header {
   height: 40px;
   transition: 0.5s ease;
 }
+
+.nav_bar img {
+  height: 40px;
+  width: 40px;
+  float: left;
+:
+ }
 
 .scrolled {
   background-color: rgba(62, 62, 62, 0.4);
@@ -99,14 +101,7 @@ header {
   transition: 0.5s ease;
 }
 
-.scrolled.nav_bar .nav_ .item .contact {
-  display: inline-block;
-  height: 40px;
-  line-height: 30px;
-  padding: 5px;
-  border-radius: 2px;
-  transition: 0.5s ease;
-}
+
 
 .scrolled.nav_bar .logo {
   float: left;
