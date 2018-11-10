@@ -6,21 +6,111 @@
   <title>Jimmy Hiller Web Designer/Developer</title>
 
   <!-- Bootstrap 3.37 -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 
   <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="CSS /wsDesignstyle.css">
+  <link rel="stylesheet" type="text/css" href="CSS /navstyle.css">
+  <link rel="stylesheet" type="text/css" href="CSS /work.css">
 
   <!-- FONT AWESOME -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
+  <!-- jQuery -->
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+
+  <style media="screen">
+    .thumbnail{
+      height: 450px;
+      margin-bottom: 80px;
+    }
+
+    i:hover{
+      cursor: grab;
+      color: rgb(125, 125, 125)
+    }
+  </style>
 
 </head>
 
 <body>
 
+  <body>
 
-  <div class="container">
+    <!-- navbar -->
+    <header>
+      <div class="nav_bar">
+        <ul class="nav_">
+          <li class="item">
+            <a href="index.html">Home</a>
+          </li>
+
+          <li class="item">
+            <a href="about.html">About</a>
+          </li>
+
+          <li class="item">
+            <a href="work.html" class='active-page'>Work</a>
+          </li>
+
+          <li class="item">
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+
+        <div class="logo">
+          <a href="index.html"> <img class="logo" src="jhlogogrey.png" alt=""> </a>
+
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="head_title">
+        <h1><strong>Web Design</strong></h1>
+        <i onclick="goBack()"class="fas fa-arrow-left" > Go Back</i>
+
+      </div>
+  <div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="images/website1.png" alt="DART Outdoors Services">
+      <div class="caption">
+        <h3><a href="https://dartservices.github.io/" target="_blank"><strong>Dart Outdoor Servies</strong></a> </h3>
+<p>Website I designed for Dart Outdoor Services. This was my first web design I created outside of my own personal portfolio.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="images/techEd.png" alt="Web App Thumbnail">
+      <div class="caption">
+      <h3><a href="https://www.trainingfortech.com/" target="_blank"><strong>Tech'Ed</strong></a> </h3>
+<p>Tech'Ed is a Charlotte based start up bringing technology lessons to those who have not had the proper training. It brings together people who are not tech savy together with people who have great experience teaching technology.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="images/frontier.png" alt="Website Design Thumbnail">
+      <div class="caption">
+        <h3><strong>Frontier</strong></a> </h3>
+        <p>This was a design challenge I was given and my first attempt at designing in Sketch</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+<!-- Under Construction Page -->
+
+  <!-- <div class="container">
   <div class="wrapper">
     <div class="content">
       <div class="item">
@@ -43,14 +133,7 @@
       </div>
     </div>
   </div>
-</div>
-
-
-
-
-
-
-
+</div> -->
 
   <!-- javascrsipt link -->
   <script src="mainjs.js"></script>
