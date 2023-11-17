@@ -109,9 +109,9 @@ b, strong {
 }
 
 .profile-pic {
-  border-radius: 50%;
-  width: 250px;
-  height: 250px;
+  border-radius: 50px;
+  width: auto;
+  height: auto;
 }
 
 .project-text {
