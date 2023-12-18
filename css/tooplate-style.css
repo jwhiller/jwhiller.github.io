@@ -253,15 +253,16 @@ b, strong {
   will-change: transform;
   transition: transform 200ms linear;
 }
-.navbar[class*="-unpinned"] {
+/* .navbar[class*="-unpinned"] {
   transform: translate(0, -150%);
-}
+} */
 .navbar[class*="-pinned"] {
   transform: translate(0, 0);
 }
 .navbar[class*="headroom--not-top"] {
   background: #ffffff;
   border-bottom: 1px solid #f0f0f0;
+  filter: drop-shadow(2px 4px 6px #e1e1e1);
   padding-top: 0;
   padding-bottom: 0;
 }
