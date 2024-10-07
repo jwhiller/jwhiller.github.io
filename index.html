@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with Steller landing page.">
+    <meta name="author" content="Devcrud">
+    <title>Jimmy Hiller | UX Designer</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <!-- Bootstrap + Steller main styles -->
+	<link rel="stylesheet" href="assets/css/steller.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+
+    <!-- Page navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" data-spy="affix" data-offset-top="0">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="assets/imgs/jh-logo.svg" alt="Jimmy Hiller JH Logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">My Work</a>
+                    </li>                   
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.linkedin.com/in/jimmy-hiller/" target="_blank">LinkedIn</a>
+                    </li>
+                </ul>
+            </div>
+        </div>          
+    </nav>
+    <!-- End of page navibation -->
+
+    <!-- Page Header -->
+    <header class="header" id="home">
+        <div class="container">
+            <div class="infos">
+                <h6 class="subtitle">hello, I'm</h6>
+                <h6 class="title">Jimmy Hiller</h6>
+                <p>UI/UX Designer</p>
+
+                <div class="buttons pt-3">
+                    <a href="https://drive.google.com/file/d/1AhovQM7DkVsBIk3TvOtuMKNwhhm9Rjw3/view" target="_blank" class="btn btn-outline-primary rounded">View My Resume</a>
+                </div>      
+
+                <!-- <div class="socials mt-4">
+                    <a class="social-item" href="javascript:void(0)"><i class="ti-facebook"></i></a>
+                    <a class="social-item" href="javascript:void(0)"><i class="ti-google"></i></a>
+                    <a class="social-item" href="javascript:void(0)"><i class="ti-github"></i></a>
+                    <a class="social-item" href="javascript:void(0)"><i class="ti-twitter"></i></a>
+                </div> -->
+            </div>              
+            <div class="img-holder">
+                <img src="assets/imgs/pandaNinja.png" alt="Panda Ninja with doughtnuts illustration">
+            </div>      
+        </div>          
+    </header>
+
+    <!-- Portfolio section -->
+    <section id="portfolio" class="section">
+        <div class="container text-center">
+            <h6 class="subtitle">My Work</h6>
+            <h6 class="section-title mb-4">Check Out What I Have Been Working On</h6>
+            <p class="text-left mb-5 pb-4">I’ve been building and developing the future in one place my entire UX career. From day one, I’ve poured my heart, soul, and a ton of wireframes into making things better, always striving to push the boundaries of what’s possible. It’s been a journey of growth, challenges, and more “Aha!” moments than I can count, and I wouldn’t trade it for anything. <br>When the Design and Product teams were freshly hatched, I had the honor (and a bit of chaos) of being the first designer on board. Think of me as the first squirrel to venture out onto a busy road—I took the leap and grew the design process and built the design system, component library, and UX Research process from scratch!
+                While I truly appreciated the feedback and insights from my Product team, Engineers, and Stakeholders, the responsibility of creating a UX-focused atmosphere was all part of my job description. It was a wild ride that sharpened my design skills and solidified my passion for crafting user-centric solutions.</p>
+    
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/marketplace2.png" alt="EdCloud thumbnail image" data-large="assets/imgs/Marketplace.png" data-caption="The Marketplace represented a new opportunity for us to quickly roll out a much-needed feature. Leveraging the existing UI design from other new features, we decided to keep things straightforward. Our primary focus was to ensure that users could seamlessly explore, find, and utilize form templates. By maintaining consistent web standards across the page, we created an environment where users can navigate the Marketplace with confidence and easily incorporate new forms into their workflows.">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Marketplace</h5>
+                                <button class="view-button" onclick="openModal(this)">
+                                    <i class="ti-zoom-in button-icon"></i>
+                                </button>
+                                <!-- <a href="details-page.html" class="details-button">Details</a> -->
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/wf-monitor2.png" alt="Workflow Monitor thumbnail image" data-large="assets/imgs/monitor.png" data-caption="WF Monitor addresses the issue of end users needing to create support tickets for forms that are either erroneous or misplaced. This feature empowers our admin users by providing them with full control over their processes, streamlining workflows and reducing dependency on support.">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>WF Monitor</h5>
+                                <button class="view-button" onclick="openModal(this)">
+                                    <i class="ti-zoom-in button-icon"></i>
+                                </button>
+                                <!-- <a href="details-page.html" class="details-button">Details</a> -->
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/navigation.png" alt="Updated Navigation thumbnail image" data-large="assets/imgs/updatedNav.png" data-caption="While new features were being developed with modern frameworks, our legacy code remained anchored in outdated frameworks. The updated navigation system significantly simplified application navigation, but the classic components—still the most used parts of our application—lacked approval for updates to align with the new UI standards. Concerns like 'it works fine' and 'it's not a high priority' were often cited.<br/><br/>As the lead of UX, I advocated for a unified navigation system because I recognized that launching new features without a cohesive way to navigate the application would lead to user frustration. I collected data from clients and consulted UX best practices, but unfortunately, my proposal was denied in order to meet deadlines.<br/><br/>Coming from a front-end development background, I approached my boss with a proposal to take on this feature myself. In my own free time, I developed the unified navigation because I believed so strongly in its necessity. I was more than willing to see it through to completion.">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Updated Navigation</h5>
+                                <button class="view-button" onclick="openModal(this)">
+                                    <i class="ti-zoom-in button-icon"></i>
+                                </button>
+                                <!-- <a href="details-page.html" class="details-button">Details</a> -->
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/form-builder-sm.png" alt="Form Builder thumbnail image" data-large="assets/imgs/formBuilder.png" data-caption="The Form Builder was the catalyst for our shift from outdated legacy applications to a modern, user-friendly solution. The classic form builder was cumbersome, requiring days of training and accessibility features that were non-existent, making it usable only by IT professionals with coding skills.<br/><br/>In contrast, the new Form Builder, which has already been released, is 100% WCAG AA 2.1 compliant, ensuring that all forms created are fully accessible for end users. The need for extensive training has been eliminated, empowering users at an Excel level to create complex forms just as effectively as their IT counterparts could with the old system.<br/><br/>This project has been my passion from day one. I designed every feature, collaborated on the code, reviewed pull requests, and thoroughly tested the product to ensure a seamless user experience.">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Form Builder</h5>
+                                <button class="view-button" onclick="openModal(this)">
+                                    <i class="ti-zoom-in button-icon"></i>
+                                </button>
+                                <!-- <a href="details-page.html" class="details-button">Details</a> -->
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/add-in.png" alt="Outlook Add In thumbnail image" data-large="assets/imgs/outlook-add-in.png" data-caption="This AI feature was developed by contract workers, which presented a unique experience for me. It took some time to adapt as we navigated the best ways to share and communicate design and product decisions. Designing for AI was both new and exciting, especially since this feature existed outside of our main application, which was a first for everyone involved.<br/><br/>The end result was impressive, but I faced the challenge of designing a feature with significant growth potential while fitting it into tight spaces. I was committed to maintaining our focus on usability, and through plenty of trial and error, we successfully developed a phase one solution that is user-friendly and can evolve alongside the product team's vision.">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Outlook Add In</h5>
+                                <button class="view-button" onclick="openModal(this)">
+                                    <i class="ti-zoom-in button-icon"></i>
+                                </button>
+                                <!-- <a href="details-page.html" class="details-button">Details</a> -->
+                            </div>  
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/handoff.png" alt="Developer Handoff Notes thumbnail image" data-large="assets/imgs/DevNotes.png" data-caption="One of the biggest challenges designers face is the handoff to development. It can feel pretty daunting to pass off a project you've poured your heart into, especially when the developers are racing against tight deadlines. After trying a few different approaches, I found that building a custom component library specifically for the handoff process was a game-changer. It not only helped communicate design expectations and inspiration but also clarified the basic styling information that developers needed to bring the vision to life. </br></br>
+
+                        I created a system with pointers, large and small annotations, status symbols, timelines for changes, and even threw in some fun stickers. This setup helped me track what's ready, what's in progress, and what’s still in the 'nice-to-have' dream phase. For developers, it made it easy to find the right links, grab the CSS they needed, check the status of various elements, and spot any recent updates right away.</br></br>
+                        
+                        By organizing the Figma files with section colors and detailed, pinpointed notes, I made sure developers knew exactly where to find everything. It gave them the confidence that what they were working with was a 'ready to go' mockup, no second-guessing needed. The whole process smoothed the transition from design to development and ensured everyone stayed on the same page.">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Dev Handoff</h5>
+                                <button class="view-button" onclick="openModal(this)">
+                                    <i class="ti-zoom-in button-icon"></i>
+                                </button>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="img-wrapper">
+                        <img src="assets/imgs/workflow-designer.png" alt="Workflow Designer thumbnail image" data-large="assets/imgs/workflow-designer2.png" data-caption="This concept showcases a potential UI upgrade and feature enhancements for our current Workflow Designer. One of the major upgrades would be making this 100% WCAG 2.2 compliant, a huge leap from our current designer, which is not accessible to screen reader or keyboard users. It’s not something we're actively developing right now—think of it more as a product vision wireframe, offering a glimpse into what could be in the future.">
+                        <div class="overlay">
+                            <div class="overlay-infos">
+                                <h5>Outlook Add In</h5>
+                                <button class="view-button" onclick="openModal(this)">
+                                    <i class="ti-zoom-in button-icon"></i>
+                                </button>
+                                <!-- <a href="details-page.html" class="details-button">Details</a> -->
+                            </div>  
+                        </div>
+                    </div> 
+                                
+                </div>
+            </div>
+    
+            <!-- Modal -->
+            <div id="imageModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img class="modal-content" id="modalImage" alt="">
+                <div id="caption"></div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- End of portfolio section -->
+
+   
+    <!-- Page Footer -->
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-6">
+                    <p>Copyright <script>document.write(new Date().getFullYear())</script> &copy; JH</p>
+                </div>
+                <div class="col-sm-6">
+                    <div class="socials">
+                        <a class="social-item" href="https://www.linkedin.com/in/jimmy-hiller/" target="_blank" aria-label="LinkedIn Link"><i class="ti-linkedin"></i></a>
+                        <!-- <a class="social-item" href="javascript:void(0)"><i class="ti-google"></i></a>
+                        <a class="social-item" href="javascript:void(0)"><i class="ti-github"></i></a>
+                        <a class="social-item" href="javascript:void(0)"><i class="ti-twitter"></i></a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> 
+    <!-- End of page footer -->
+	
+	<!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+    <!-- bootstrap 3 affix -->
+	<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
+
+    <!-- steller js -->
+    <script src="assets/js/steller.js"></script>
+
+</body>
+</html>
